@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgriMart</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> 
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -15,7 +15,7 @@
         }
     
         header {
-            background-color: #556B2F; /* Changed navbar background color */
+            background-color: #556B2F; 
             color: white;
             padding: 20px 40px;
             display: flex;
@@ -29,7 +29,6 @@
             font-size: 2em;
         }
 
-        /* Style for the search bar */
         header .search-container {
             display: flex;
             align-items: center;
@@ -61,7 +60,7 @@
             background-color: #A9BA9D;
         }
 
-        /* Style for login/signup toggle */
+    
         header .auth-container {
             display: flex;
             align-items: center;
@@ -89,7 +88,7 @@
         }
     
         nav ul li {
-            margin-left: 30px; /* Increased margin to move elements slightly to the right */
+            margin-left: 30px; 
         }
     
         nav ul li a {
@@ -102,22 +101,22 @@
     
         nav ul li a:hover {
             font-weight: bold;
-            transform: scale(1.2); /* Increase the size of the link */
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add shadow */
-            /*background-color: #8F9779;  Change background color on hover */
+            transform: scale(1.2); 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    
         }
 
         nav ul li a.cart i {
-            font-size: 1.5em; /* Set size of the cart icon */
+            font-size: 1.5em; 
         }
 
         nav ul li a.cart:hover i {
-            transform: scale(1.2); /* Increase the size of the cart icon on hover */
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+            transform: scale(1.2); 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
         }
     
         .hero {
-            background-color: #8F9779; /* Set hero background color */
+            background-color: #8F9779; 
             color: white;
             text-align: center;
             padding: 50px 20px;
@@ -135,19 +134,19 @@
     
         .hero a {
             text-decoration: none;
-            padding: 15px 30px; /* Increased padding for larger button */
-            background-color: #A9BA9D; /* Button background color same as section */
+            padding: 15px 30px; 
+            background-color: #A9BA9D; 
             color: white;
             border-radius: 5px;
-            font-size: 1.2em; /* Increased font size for button */
+            font-size: 1.2em; 
             transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s, font-size 0.3s;
         }
     
         .hero a:hover {
-            transform: scale(1.1); /* Increase button size on hover */
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add shadow to button */
-            background-color: #A9BA9D; /* Change button background on hover */
-            font-size: 1.4em; /* Increase font size of text on hover */
+            transform: scale(1.1); 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+            background-color: #A9BA9D; 
+            font-size: 1.4em; 
         }
     
         .categories {
@@ -166,16 +165,16 @@
             height: 200px;
             margin: 10px;
             padding: 15px;
-            background-color: #d3d3d3; /* Set card background color */
+            background-color: #d3d3d3; 
             text-align: center;
             border-radius: 5px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow to cards */
-            transition: transform 0.3s, box-shadow 0.3s; /* Added transition */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+            transition: transform 0.3s, box-shadow 0.3s;
         }
 
         .categories .item:hover {
-            transform: scale(1.05); /* Increase the size of card on hover */
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+            transform: scale(1.05); 
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
         }
 
         .categories .item img {
@@ -186,8 +185,8 @@
         }
 
         .categories .item p {
-            font-weight: bold; /* Make text bold */
-            font-size: 1.2em; /* Increase font size of text */
+            font-weight: bold; 
+            font-size: 1.2em; 
             margin-top: 10px;
         }
 
@@ -212,7 +211,7 @@
         }
     
         footer {
-            background-color: #556B2F; /* Changed footer background color */
+            background-color: #556B2F; 
             color: white;
             text-align: center;
             padding: 20px;
@@ -241,11 +240,11 @@
 <body>
     <header>
         <div class="logo">AgriMart</div>
-        <!-- Search Bar -->
+        
         <div class="search-container">
             <input type="text" id="search" placeholder="">
             <button type="button">
-                <i class="fas fa-search"></i> <!-- Magnifying glass icon -->
+                <i class="fas fa-search"></i> 
             </button>
         </div>
         <nav>
@@ -253,10 +252,10 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#" class="cart"><i class="fas fa-shopping-cart"></i></a></li> <!-- Cart icon -->
+                <li><a href="#" class="cart"><i class="fas fa-shopping-cart"></i></a></li> 
             </ul>
         </nav>
-        <!-- Login/Signup Toggle -->
+        
         <div class="auth-container">
             <a href="#">Login / Signup</a>
         </div>
